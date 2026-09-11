@@ -1,0 +1,30 @@
+name: Content correction
+description: A role sheet, anchor figure, red flag or standard reference that is wrong or outdated
+labels: ["content"]
+body:
+  - type: input
+    id: file
+    attributes:
+      label: File and section
+      placeholder: references/roles/piping-engineer.md — "Anchor figures"
+    validations:
+      required: true
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What is wrong
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What it should say
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Basis
+      description: Field practice, a standard, a public source. Say which — it is how the change gets judged.
+    validations:
+      required: true

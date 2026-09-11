@@ -1,0 +1,17 @@
+{
+  "_doc": "Default configuration of the industrial-project-team skill. A copy of this file named project-team.json at the root of the project folder (or a project-team block in the project's CLAUDE.md) takes precedence. The conversation takes precedence over everything. Fields are described in schema.md.",
+  "project_name": "",
+  "sector": "auto",
+  "countries": [],
+  "standards_regime": "",
+  "working_language": "en",
+  "posture": "owner",
+  "contract_model": "",
+  "current_phase": "",
+  "active_roles": [],
+  "disabled_roles": [],
+  "added_roles": [],
+  "locks": [],
+  "phase_skills": [],
+  "notes": ""
+}

@@ -1,0 +1,25 @@
+name: Country card / standards regime
+description: Add a country, or correct the standards regime map
+labels: ["country"]
+body:
+  - type: input
+    id: country
+    attributes:
+      label: Country (ISO-2)
+      placeholder: IT
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What to add or correct
+      description: Structural code and seismic map, pressure equipment, electrical installation, hazardous areas, process safety, permitting authority, construction safety, welding certification, contract form, units.
+    validations:
+      required: true
+  - type: textarea
+    id: basis
+    attributes:
+      label: Basis and date
+      description: Regulations change. Say which text or practice you are relying on and as of when.
+    validations:
+      required: true

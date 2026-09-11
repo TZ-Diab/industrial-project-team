@@ -1,0 +1,30 @@
+name: Sector profile
+description: Propose a new sector profile, or correct an existing one
+labels: ["sector-profile"]
+body:
+  - type: input
+    id: slug
+    attributes:
+      label: Sector (slug)
+      placeholder: offshore-wind
+    validations:
+      required: true
+  - type: textarea
+    id: identity
+    attributes:
+      label: What the identity card would say
+      description: Scale, dominant contract models, gates, regulatory framework, FID locks, economics — twelve lines is enough to start.
+    validations:
+      required: true
+  - type: textarea
+    id: roles
+    attributes:
+      label: Sector-specific roles
+      description: The process-core specialist, if there is one, and any other role only this sector knows.
+  - type: textarea
+    id: experience
+    attributes:
+      label: Your experience of this sector
+      description: A profile written from general knowledge is worth little. Say what you have actually run.
+    validations:
+      required: true
